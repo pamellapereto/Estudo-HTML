@@ -31,12 +31,19 @@ HTML: Hyper Text Markup Language (Linguagem de Marcação de Hiper Texto).
 
 > Para uma página funcionar é necessário que o programador escreva as tags HTML e o Motor Web renderize os códigos transformando-os em elementos gráficos.
 
-Estrutura básica de uma página HTML
+## Estrutura básica de uma página HTML
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
-    <title>Teste</title>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Primeira Página HTML<</title>
   </head>
 
   <body></body>
