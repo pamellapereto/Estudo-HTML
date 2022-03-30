@@ -27,7 +27,7 @@ p {
 img {
   margin: auto;
   display: block;
-  opacity: 0.5;
+  opacity: 0.9;
   border-radius: 20px;
   transition: ease 1s; /*efeito de transição (animação) de um segundo*/
 }
