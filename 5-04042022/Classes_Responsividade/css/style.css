@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Criação de uma paleta de cores personalizada*/
+
+/*Cores para o fundo - prefixo bg*/
+
+.bgPreto {
+  background-color: rgb(0, 0, 0);
+}
+
+.bgLaranja {
+  background-color: rgb(255, 125, 0);
+}
+
+.bgVermelho {
+  background-color: rgb(255, 0, 0);
+}
+
+/*Cores para as letras - prefixo tx*/
+
+.txBranco {
+  color: rgb(255, 255, 255);
+}
+
+.txAmarelo {
+  color: rgb(255, 255, 0);
+}
+
+/*Tamanho de letra - prefixo t*/
+.t1 {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50pt;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.t2 {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40pt;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.t3 {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25pt;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+  margin-left: 40px;
+}
+
+.p1 {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18pt;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.p2 {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15pt;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+  margin-left: 40px;
+  margin-top: 30px;
+}

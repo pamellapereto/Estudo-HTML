@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Adição de breakpoints para algumas telas*/
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  body {
+    background-color: rgb(179, 0, 110);
+  }
+}
+
+@media (min-width: 0px) and (max-width: 599px) {
+  body {
+    background-color: rgb(27, 12, 92);
+  }
+}
